@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
     s.author           = 'aycom366'
     s.platform         = :ios, '12.1'
     s.static_framework = true
+    s.requires_arc      = true
   
    
     s.source           = { :http => 'https://github.com/aycom366/ffmpeg/releases/download/v6.0.2/ffmpeg-kit-ios-full-min.zip' }
