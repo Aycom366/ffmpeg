@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.requires_arc      = true
   
    
-    s.source           = { :http => 'https://github.com/aycom366/ffmpeg/releases/download/v6.0.2/ffmpeg-kit-ios-full-min.zip' }
+    s.source           = { :http => 'https://github.com/aycom366/ffmpeg/releases/download/v6.0.2/ffmpeg-kit-min.xcframework.zip' }
   
    s.vendored_frameworks = [
     'bundle-apple-xcframework-ios/ffmpegkit.xcframework',
